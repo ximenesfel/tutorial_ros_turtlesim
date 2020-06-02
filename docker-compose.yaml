@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  ros:
+    build: ./docker
+    tty: true
+    environment:
+      DISPLAY: $DISPLAY
+      QT_X11_NO_MITSHM: 1
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ~/.Xauthority:/root/.Xauthority
+      - ./code:/root/catkin_ws/src
