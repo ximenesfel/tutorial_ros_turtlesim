@@ -1,3 +1,4 @@
+
 - [Ambiente testado](#Ambiente-testado)
 - [Instalação](#Instalação)
 - [Uso](#Uso)
@@ -74,6 +75,12 @@ docker-compose exec ros bash
 
 
 # Uso
+
+- Rodar este comando no terminal:
+
+```
+xhost +local:root
+```
 
 - Acessar o docker container e rodar o roscore:
 
