@@ -39,7 +39,7 @@ sudo python3 -m pip install docker-compose
 
 ```
 sudo apt-get install -y git
-git https://github.com/ximenesfel/tutorial_ros_turtlesim.git
+git clone https://github.com/ximenesfel/tutorial_ros_turtlesim.git
 cd tutorial_ros_turtlesim
 ```
 - Realizar o build da imagem do docker. Esse passo demora um pouco !!!!
