@@ -23,7 +23,7 @@ sh get-docker.sh
 
 ```
 sudo groupadd docker
-sudo usermod -aG docker $USER
+sudo usermod -aG docker "usuario" (Trocar "usuario" pelo nome do seu usuário. Ex: sudo usermod -aG docker **ximenes**)
 ```
 
 - Reiniciar o pc para validar a associação acima.
