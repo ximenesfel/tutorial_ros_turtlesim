@@ -142,3 +142,25 @@ libGL error: failed to load driver: swrast
 - O turtlesim vai aparecer.
 
 ![](https://i.imgur.com/LjndADb.png)
+
+- Teleoperar o turtlesim com as teclas do teclado
+
+Abrir outro termininal, acessar o docker container e rodar o nó para teleoperar com as setas do teclado:
+
+```
+docker-compose exec ros bash  (Acessar o docker container)
+root@46ef30c4b5eb:~# rosrun turtlesim turtle_teleop_key
+```
+
+**Saída**
+
+```
+root@dafdb326b316:~# rosrun turtlesim turtle_teleop_key 
+Reading from keyboard
+---------------------------
+Use arrow keys to move the turtle. 'q' to quit.
+```
+
+- Movimentar as setas no teclado e o turtlesim vai andar.
+
+![Screenshot from 2020-07-10 16-03-36](/home/ximenes/Pictures/Screenshot from 2020-07-10 16-03-36.png)
