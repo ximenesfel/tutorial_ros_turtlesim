@@ -163,4 +163,6 @@ Use arrow keys to move the turtle. 'q' to quit.
 
 - Movimentar as setas no teclado e o turtlesim vai andar.
 
-![Turtlesim](asset/turtlesim_move.png)
+<div style="text-align: center">
+  <img src="asset/turtlesim_move.png" style="width: 500px; height: 500px;" />
+</div>
