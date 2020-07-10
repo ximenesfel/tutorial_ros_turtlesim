@@ -163,4 +163,4 @@ Use arrow keys to move the turtle. 'q' to quit.
 
 - Movimentar as setas no teclado e o turtlesim vai andar.
 
-![Screenshot from 2020-07-10 16-03-36](/home/ximenes/Pictures/Screenshot from 2020-07-10 16-03-36.png)
+![Turtlesim](asset/turtlesim_move.png)
